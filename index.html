@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="screen active" id="start-screen">
+            <h1>Quiz Time</h1>
+            <p>Test your knowledge with this fun questions</p>
+            <button class="start-btn">Start Quiz</button>
+        </div>
+
+        
+        <div class="screen" id="quiz-screen">
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="answers-container" id="answers-container">
+            <!-- To work on During JS Session -->
+        </div>
+        <div class="progress">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div id="result-screen" class="screen">
+            <h1>Quiz Results</h1>
+            <div class="results-info">
+                <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
+                <div class="result-message">Good Job!</div>
+            </div>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    
+</body>
+</html>
